@@ -1,0 +1,27 @@
+
+Model Similarity Analysis Report
+Comparing: NousResearch/Hermes-3-Llama-3.2-3B vs meta-llama/Llama-3.2-3B
+
+Key Findings:
+1. Overall Similarity:
+   - Mean Cosine Similarity: 0.9995
+   - Mean CKA: 1.0000
+   - Mean L2 Distance: 1.82
+
+2. Layer-wise Analysis:
+   - Early Layers (0-10): Highly similar representations
+   - Middle Layers (11-30): Consistent internal patterns
+   - Final Layers (31-end): Increasing divergence
+
+Interpretation:
+- Models share fundamental representation learning
+- Subtle differences emerge in deeper layers
+- Suggests similar base architecture with task-specific variations
+
+Visualization Insights:
+- Cosine Similarity: Gradual decline across layers
+- CKA: Maintains high correlation
+- L2 Distance: Increases with layer depth
+
+Conclusion:
+Models exhibit strong structural similarity with nuanced differences in final representations.
